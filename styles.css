@@ -40,7 +40,7 @@ li > a {
     color: inherit;
     text-decoration: none;
     font-weight: 500;
-    padding: 9px 15px;
+    padding: 10px 15px;
 }
 li > a:hover {
     background: #708090;
@@ -49,14 +49,14 @@ li > a:hover {
 h1 {
     color: var(--color2--);
     text-align: center;
-    margin: 21px auto;
+    margin: 20px auto;
     padding: 10px;
     box-sizing: border-box;
     font-size: 2em;
 }
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: max(6vw, 16px); /* Font size for screens smaller than 358px */
+    font-size: max(8vw, 18px); /* Font size for screens smaller than 358px */
   }
 }
 nav {
@@ -68,7 +68,7 @@ header > * {
     
 }
 /*----------------- Styling main -----------------*/
-main {
+#main {
     padding: 10vw;
     padding-top: 100px;
 }
@@ -96,7 +96,7 @@ section {
 }
 #img-div {
     width: 100%;
-    max-width: 881px;
+    max-width: 900px;
     text-align: center;
     height: auto;
     margin: 0 auto;
